@@ -1,1 +1,0 @@
-# oykumtoptanparke.github.io
