@@ -75,13 +75,7 @@
             })
             .catch(error => console.error('Footer yüklenemedi:', error));
 
-        // WhatsApp tıklama olayını ayarla
-        document.getElementById('whatsapp-float').addEventListener('click', function(e) {
-            e.preventDefault();
-            var phone = '05322055283';
-            var message = encodeURIComponent('Merhaba, Fiyat bilgisi alabilir miyim?');
-            window.open('https://wa.me/' + phone + '?text=' + message, '_blank');
-        });
+               });
     </script>
 </body>
 </html>
