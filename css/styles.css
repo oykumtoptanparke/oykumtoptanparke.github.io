@@ -68,7 +68,7 @@ footer {
     background-color: #25d366;
     color: white;
     border-radius: 50%;
-    width: 60px; /* Simge boyutunu biraz artırdım */
+    width: 60px;
     height: 60px;
     display: flex;
     align-items: center;
@@ -80,7 +80,7 @@ footer {
 }
 
 .whatsapp-float i {
-    font-size: 2.5rem !important; /* Boyutu artırdım ve !important ekledim */
+    font-size: 2.5rem !important;
 }
 
 @keyframes bounce {
@@ -93,4 +93,12 @@ footer {
     60% {
         transform: translateY(-4px);
     }
+}
+
+.social-icons a {
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
 }
