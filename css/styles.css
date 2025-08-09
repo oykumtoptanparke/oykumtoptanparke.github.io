@@ -81,6 +81,9 @@ footer {
 
 .whatsapp-float i {
     font-size: 2.5rem !important;
+    display: inline-block !important;
+    color: white !important;
+    line-height: 1 !important;
 }
 
 @keyframes bounce {
@@ -101,4 +104,9 @@ footer {
 
 .social-icons a:hover {
     transform: scale(1.2);
+}
+
+.social-icons i {
+    display: inline-block !important;
+    color: white !important;
 }
