@@ -158,3 +158,64 @@ footer {
 .bg-parke {
     background-color: #8B5A2B; /* Parke dokusuna uygun koyu ahşap rengi */
 }
+
+/* Mobil cihazlar için medya sorgusu (max-width: 768px) */
+@media (max-width: 768px) {
+    .top-bar {
+        font-size: 0.8rem; /* Daha küçük font */
+        padding: 5px 0; /* Daha az padding */
+    }
+
+    .top-bar .contact-info {
+        display: block; /* Dikey hizalama */
+        text-align: center; /* Merkezi hizalama */
+    }
+
+    .top-bar .contact-info span {
+        margin-right: 0; /* Yan yana boşlukları kaldır */
+        display: block; /* Her satırı ayrı göster */
+        margin-bottom: 5px; /* Satırlar arası boşluk */
+    }
+
+    .social-icons {
+        justify-content: center; /* Sosyal ikonları ortala */
+        margin-bottom: 10px; /* Alt boşluk */
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem; /* Navbar markasını küçült */
+    }
+
+    .navbar-nav {
+        text-align: center; /* Menü öğelerini ortala */
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0; /* Menü öğeleri arası boşluk */
+    }
+
+    footer .row {
+        flex-direction: column; /* Footer elemanlarını dikey yap */
+        text-align: center; /* Merkezi hizalama */
+    }
+
+    footer .social-icons {
+        justify-content: center; /* Sosyal ikonları ortala */
+        margin-bottom: 10px; /* Alt boşluk */
+    }
+
+    .copyright-text {
+        font-size: 0.8rem; /* Telif hakkı metnini küçült */
+    }
+
+    .whatsapp-float {
+        bottom: 10px; /* Daha az alt boşluk */
+        right: 10px; /* Daha az sağ boşluk */
+        width: 50px; /* Küçük ekran için küçült */
+        height: 50px; /* Küçük ekran için küçült */
+    }
+
+    .whatsapp-float i {
+        font-size: 2rem !important; /* İkon boyutunu küçült */
+    }
+}
