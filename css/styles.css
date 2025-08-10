@@ -40,6 +40,9 @@ body {
 .product-card {
     transition: transform 0.3s;
     margin-bottom: 15px;
+    height: 400px; /* Sabit kart yüksekliği */
+    display: flex;
+    flex-direction: column;
 }
 
 .product-card:hover {
@@ -49,6 +52,29 @@ body {
 .card-img-top {
     height: 200px;
     object-fit: cover;
+}
+
+.product-card .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card .card-text {
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Maksimum 3 satır */
+    -webkit-box-orient: vertical;
+}
+
+.referans-img {
+    width: 100%;
+    height: 200px; /* Sabit yükseklik, ihtiyaca göre ayarlayın */
+    object-fit: cover; /* Orantılı kırpma */
+    background-color: #f8f9fa; /* Yüklenirken yer tutucu */
 }
 
 section {
@@ -109,4 +135,26 @@ footer {
 .social-icons i {
     display: inline-block !important;
     color: white !important;
+    font-size: 1.5rem !important; /* İkon boyutunu küçülttük ve eşitledik */
+}
+
+.copyright-text {
+    font-family: 'Roboto', sans-serif; /* Copyright için yeni yazı tipi */
+    font-size: 0.9rem; /* Hafif küçük, temiz bir görünüm için */
+}
+
+.top-bar {
+    font-size: 0.9rem; /* Adres ve telefon için küçük font */
+}
+
+.top-bar a {
+    text-decoration: none; /* Telefon numarası için alt çizgi kaldırma */
+}
+
+.top-bar .contact-info span {
+    margin-right: 15px; /* Adres ve telefon arasında boşluk */
+}
+
+.bg-parke {
+    background-color: #8B5A2B; /* Parke dokusuna uygun koyu ahşap rengi */
 }
