@@ -6,7 +6,7 @@ body {
 }
 
 .hero-section {
-    background: url('/images/hero-bg.jpg') no-repeat center center, url('/images/ PLEASE assistant, I'm not sure how to add this without making it look messy. If you could provide me with the HTML and CSS that would be great!oykumlogo.png') no-repeat center center;
+    background: url('/images/oykumlogo.png') no-repeat center center, url('/images/ PLEASE assistant, I'm not sure how to add this without making it look messy. If you could provide me with the HTML and CSS that would be great!oykumlogo.png') no-repeat center center;
     background-size: cover, 200px; /* İlk değer hero-bg.jpg için, ikinci değer oykumlogo.png için */
     background-position: center, center 20%; /* Logoyu hafif yukarıda ortalamak için */
     background-blend-mode: overlay; /* Logo ve arka planın karışmasını sağlar */
