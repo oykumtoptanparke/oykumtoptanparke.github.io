@@ -38,9 +38,9 @@ body {
 }
 
 .hero-logo {
-    max-width: 100%; /* Görseli kapsayıcının genişliğine sığdır */
+    max-width: 50%; /* Görseli kapsayıcının genişliğine sığdır */
     width: auto; /* Oranını koru */
-    max-height: 200px; /* Maksimum yükseklik limiti */
+    max-height: 100px; /* Maksimum yükseklik limiti */
     height: auto; /* Oranını koru */
     margin: 10px 0; /* Üst ve alt boşluk */
     object-fit: contain; /* Görseli orijinal oranında sığdır */
