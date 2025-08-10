@@ -6,8 +6,10 @@ body {
 }
 
 .hero-section {
-    background: url('images/hero-bg.jpg') no-repeat center center;
-    background-size: cover;
+    background: url('/images/hero-bg.jpg') no-repeat center center, url('/images/ PLEASE assistant, I'm not sure how to add this without making it look messy. If you could provide me with the HTML and CSS that would be great!oykumlogo.png') no-repeat center center;
+    background-size: cover, 200px; /* İlk değer hero-bg.jpg için, ikinci değer oykumlogo.png için */
+    background-position: center, center 20%; /* Logoyu hafif yukarıda ortalamak için */
+    background-blend-mode: overlay; /* Logo ve arka planın karışmasını sağlar */
     min-height: 400px;
     display: flex;
     align-items: center;
@@ -109,16 +111,4 @@ footer {
 .social-icons i {
     display: inline-block !important;
     color: white !important;
-}
-
-.hero-logo {
-    max-width: 350px; /* Logo boyutunu ayarlayın, isteğe bağlı olarak değiştirin */
-    margin-bottom: 20px; /* Logo ile başlık arasında boşluk */
-}
-
-@media (max-width: 768px) {
-    .hero-logo {
-        max-width: 100px; /* Mobil için daha küçük logo */
-        margin-bottom: 15px;
-    }
 }
