@@ -162,7 +162,28 @@ footer {
 /* Mobil cihazlar için medya sorgusu */
 @media (max-width: 768px) {
     .top-bar {
-        display: none; /* Mobil cihazlarda üst çubuğu gizle */
+        font-size: 0.7rem; /* Yazıları daha küçük yap */
+        padding: 5px 0; /* Daha az padding */
+    }
+
+    .top-bar .contact-info {
+        display: block; /* Dikey hizalama */
+        text-align: center; /* Merkezi hizalama */
+    }
+
+    .top-bar .contact-info span {
+        margin-right: 0; /* Yan yana boşlukları kaldır */
+        display: block; /* Her satırı ayrı göster */
+        margin-bottom: 3px; /* Satırlar arası küçük boşluk */
+    }
+
+    .social-icons {
+        justify-content: center; /* Sosyal ikonları ortala */
+        margin-bottom: 5px; /* Alt boşluk */
+    }
+
+    .social-icons i {
+        font-size: 1.2rem !important; /* İkon boyutlarını küçült */
     }
 
     .navbar-brand {
