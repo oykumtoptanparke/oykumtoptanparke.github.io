@@ -155,6 +155,10 @@ footer {
     margin-right: 15px;
 }
 
+.top-bar .contact-info .address {
+    margin-right: 15px;
+}
+
 .bg-parke {
     background-color: #8B5A2B;
 }
@@ -212,5 +216,19 @@ footer {
     }
     .whatsapp-float i {
         font-size: 2rem !important; /* İkon boyutunu küçült */
+    }
+    /* Footer için mobil düzen */
+    .social-icons-wrapper {
+        margin-bottom: 15px; /* Sosyal medya ikonları ile telif arasında boşluk */
+    }
+}
+
+/* Masaüstü için footer düzeni */
+@media (min-width: 769px) {
+    .social-icons-wrapper {
+        text-align: left; /* Sosyal medya ikonlarını sola hizala */
+    }
+    .copyright-wrapper {
+        text-align: right; /* Telif yazısını sağa hizala */
     }
 }
