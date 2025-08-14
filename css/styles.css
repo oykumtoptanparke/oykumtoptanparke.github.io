@@ -163,6 +163,15 @@ footer {
     background-color: #8B5A2B;
 }
 
+.logo-img {
+    max-height: 40px; /* Masaüstünde logo yüksekliğini küçülttüm */
+    max-width: 150px; /* Genişliği sınırladım */
+    width: auto; /* Orantılı genişlik */
+    height: auto; /* Orantılı yükseklik */
+    display: block; /* Düzgün hizalama için */
+    object-fit: contain; /* Logo’nun orantılı görünmesini sağlar */
+}
+
 /* Mobil cihazlar için medya sorgusu */
 @media (max-width: 768px) {
     .top-bar {
@@ -220,6 +229,11 @@ footer {
     /* Footer için mobil düzen */
     .social-icons-wrapper {
         margin-bottom: 15px; /* Sosyal medya ikonları ile telif arasında boşluk */
+    }
+    /* Logo için mobil düzen */
+    .logo-img {
+        max-height: 30px; /* Mobilde logo yüksekliğini daha da küçülttüm */
+        max-width: 120px; /* Mobilde genişliği sınırladım */
     }
 }
 
