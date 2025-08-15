@@ -232,8 +232,8 @@ footer {
     }
     /* Logo için mobil düzen */
     .logo-img {
-        max-height: 25px; /* Mobilde logo yüksekliğini daha da küçülttüm */
-        max-width: 300px; /* Mobilde genişliği sınırladım */
+        max-height: 100px; /* Mobilde logo yüksekliğini daha da küçülttüm */
+        max-width: 200px; /* Mobilde genişliği sınırladım */
     }
 }
 
