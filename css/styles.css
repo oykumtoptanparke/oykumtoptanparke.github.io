@@ -164,8 +164,8 @@ footer {
 }
 
 .logo-img {
-    max-height: 40px; /* Masaüstünde logo yüksekliğini küçülttüm */
-    max-width: 150px; /* Genişliği sınırladım */
+    max-height: 80px; /* Masaüstünde logo yüksekliğini küçülttüm */
+    max-width: 300px; /* Genişliği sınırladım */
     width: auto; /* Orantılı genişlik */
     height: auto; /* Orantılı yükseklik */
     display: block; /* Düzgün hizalama için */
